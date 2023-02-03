@@ -25,14 +25,14 @@
     color: #000000;
 }
 
-.gpt3__cta-btn {
+.gpt3__cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
 }
 
-.gpt3__cta-btn button {
+.gpt3__cta-button button {
     background: #000000;
     border-radius: 40px;
     font-family: var(--font-family);

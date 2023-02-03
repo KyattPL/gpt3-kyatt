@@ -1,30 +1,31 @@
 import React from "react";
-import Feature from '../../components/feature/Feature';
+
+import { Feature } from '../../components';
 import "./features.css";
 
 const featuresData = [
   {
-    title: 'On a stack no cap',
-    text: 'He be buggin fr fr'
+    title: 'Super responsive',
+    text: 'Absolutely super amazing text that is there to replace a generic lorem ipsum'
   },
   {
-    title: 'Whatever dud',
-    text: 'mgaoigneoigioaenrgioaenrgio'
+    title: 'Frontend is my passion',
+    text: 'Absolutely super amazing text that is there to replace a generic lorem ipsum'
   },
   {
-    title: 'Omegalul Jankos Nidalee',
-    text: 'KEKW Q KEKW Q'
+    title: 'Best regards',
+    text: 'Absolutely super amazing text that is there to replace a generic lorem ipsum'
   },
   {
-    title: 'Hey Kappa Kappa Hey',
-    text: 'Bro why is this song stuck in my head'
+    title: 'Amazing functionalities',
+    text: 'Absolutely super amazing text that is there to replace a generic lorem ipsum'
   }
 ];
 
 const Features = () => {
   return <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The future is now and You just need to realize it. Step into future today & make it happen.</h1>
+      <h1 className="gradient__text">The future is now and You just need to realize it. Step into the future today & make it happen.</h1>
       <p>Request Early Access to Get Started</p>
     </div>
     <div className="gpt3__features-container">
