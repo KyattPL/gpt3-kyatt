@@ -1,5 +1,6 @@
 {
   "name": "gpt3-kyatt",
+  "homepage": "https://kyattpl.github.io/gpt3-kyatt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
